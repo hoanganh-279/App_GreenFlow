@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M9,3h6c0.55,0 1,0.45 1,1v1H8V4c0,-0.55 0.45,-1 1,-1z"/>
+
+    <!-- Nắp thùng rác -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M4,6h16c0.55,0 1,0.45 1,1s-0.45,1 -1,1H4c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1z"/>
+
+    <!-- Thân thùng rác -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M6,8h12l-1.2,11.2c-0.1,0.9 -0.9,1.6 -1.8,1.6H9c-0.9,0 -1.7,-0.7 -1.8,-1.6L6,8z"/>
+
+    <!-- Các đường sọc (chi tiết thùng rác) -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M10,10v8M14,10v8"
+        android:strokeWidth="1.5"
+        android:strokeColor="@android:color/white"/>
+</vector>

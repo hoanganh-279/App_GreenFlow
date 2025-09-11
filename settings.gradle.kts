@@ -1,4 +1,7 @@
 pluginManagement {
+    plugins {
+        id("org.jetbrains.kotlin.android") version "2.0.0"
+    }
     repositories {
         google {
             content {
@@ -13,6 +16,8 @@ pluginManagement {
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    //allprojects
     repositories {
         google()
         mavenCentral()
@@ -21,4 +26,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "App GreenFlow Group"
 include(":app")
- 
